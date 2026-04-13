@@ -64,7 +64,7 @@ We used `ovs-ofctl` to inspect the Flow Tables on `s1` to prove the controller m
 ### C. Wireshark Logs (Link Detection)
 The "Detection" phase is validated by the **`OFPT_PORT_STATUS`** message. This is an asynchronous message sent by the switch to the POX controller to report that a link is down.
 
-> **Screenshot Placeholder:** [Upload your Wireshark screenshot showing the OFPT_PORT_STATUS packet]
+> ![Alt Text](wireshark.png)
 
 ---
 
