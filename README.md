@@ -7,7 +7,8 @@ In traditional networking, link failures often lead to significant downtime and 
 
 ## 2. Topology & Infrastructure
 The network is emulated in Mininet and follows a triangle design to provide redundancy.
-**Screenshot Placeholder:** [![Uploading image.png…]()]
+![Uploading image.png…]()
+
 
 * **Hosts:** `h1` (10.0.0.1), `h2` (10.0.0.2)
 * **Switches:** `s1`, `s2`, `s3` (Open vSwitches)
