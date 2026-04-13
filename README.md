@@ -49,7 +49,7 @@ The network is emulated in Mininet and follows a triangle design to provide redu
 ### A. Connectivity & Recovery (Ping/iperf Results)
 Initially, the pings show low latency. When the `s1-s2` link is disabled, the pings pause briefly during the **STP Convergence** period and then resume automatically via the backup switch `s3`.
 
-> **Screenshot Placeholder:** [Upload screenshot showing pings resuming with a change in RTT]
+> ![Alt Text](Pinging.png)
 
 **Analysis:** The Round Trip Time (RTT) increases after recovery (e.g., from 0.05ms to ~10ms+) because the data packets must now travel through an additional switch (`s3`).
 
