@@ -59,7 +59,7 @@ We used `ovs-ofctl` to inspect the Flow Tables on `s1` to prove the controller m
 - **Pre-Failure:** Flow rule matches Destination IP and outputs to the port connected to `s2`.
 - **Post-Failure:** Flow rule is updated by the controller to output to the port connected to `s3`.
 
-> **Screenshot Placeholder:** [Upload screenshot of 'sh ovs-ofctl dump-flows s1' output]
+> ![Alt Text](FlowTable.png)
 
 ### C. Wireshark Logs (Link Detection)
 The "Detection" phase is validated by the **`OFPT_PORT_STATUS`** message. This is an asynchronous message sent by the switch to the POX controller to report that a link is down.
