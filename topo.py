@@ -17,7 +17,7 @@ class TriangleTopo(Topo):
         # Add 2 Hosts
         h1 = self.addHost('h1', ip='10.0.0.1')
         h2 = self.addHost('h2', ip='10.0.0.2')
-
+        
         # Connect Hosts to Switches
         self.addLink(h1, s1)
         self.addLink(h2, s2)
